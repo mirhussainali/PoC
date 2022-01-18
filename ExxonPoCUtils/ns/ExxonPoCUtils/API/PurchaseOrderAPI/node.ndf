@@ -1157,6 +1157,12 @@
         <record name="DELETE" javaclass="com.wm.util.Values">
           <value name="operationType">DELETE</value>
           <value name="nsName">/PurchaseOrder/{PONumber}_DELETE</value>
+          <array name="consumes" type="value" depth="1">
+            <value>application/xml</value>
+          </array>
+          <array name="produces" type="value" depth="1">
+            <value>application/xml</value>
+          </array>
           <array name="requiredDefinitions" type="value" depth="1">
             <value>ExxonPoCUtils.REST.PurchaseOrder_.docTypes:PurchaseOrder</value>
             <value>pub.rest.jsonapi:errorTemplate</value>

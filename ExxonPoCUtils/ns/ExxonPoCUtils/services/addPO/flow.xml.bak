@@ -3424,7 +3424,7 @@ local error : %lastError/error%
 </MAPSET>
 </MAP>
 
-<EXIT FROM="$flow" SIGNAL="FAILURE" FAILURE-MESSAGE="Incident create in ServiceNow. Details : %SNResponse%">
+<EXIT FROM="$flow" SIGNAL="FAILURE" FAILURE-MESSAGE="Error Details : %SNResponse%">
   <COMMENT></COMMENT>
 </EXIT>
 </SEQUENCE>

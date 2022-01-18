@@ -48,7 +48,7 @@
           <value name="is_global">false</value>
           <value name="rec_closed">true</value>
           <value name="modifiable">true</value>
-          <value name="rec_ref">ExxonPoC.documents:POReport</value>
+          <value name="rec_ref">ExxonPoCUtils.documents:POReport</value>
         </record>
       </array>
       <value name="modifiable">true</value>
