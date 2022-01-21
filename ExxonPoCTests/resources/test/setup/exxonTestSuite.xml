@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="TS_exxonTestSuite.xml">
+    <webMethodsTestCase description="Generate a Test Wizard" name="TC_transformDates">
+        <service folder="ExxonPoC.transformations" name="transformDates">
+            <input>
+                <file filename="resources/test/data/ExxonPoC_transformations_transformDates_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/ExxonPoC_transformations_transformDates_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Generate a Test Wizard" name="TC_transformNumeric">
+        <service folder="ExxonPoC.transformations" name="transformNumeric">
+            <input>
+                <file filename="resources/test/data/ExxonPoC_transformations_transformNumeric_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/ExxonPoC_transformations_transformNumeric_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Generate a Test Wizard" name="TC_transformString">
+        <service folder="ExxonPoC.transformations" name="transformString">
+            <input>
+                <file filename="resources/test/data/ExxonPoC_transformations_transformString_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/ExxonPoC_transformations_transformString_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>

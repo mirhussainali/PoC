@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.util.Values">
+    <array name="InputStringList" type="value" depth="1">
+      <value>Spiderman</value>
+      <value>No</value>
+      <value>Way</value>
+      <value>Home</value>
+    </array>
+    <value name="separator">*</value>
+    <value name="concatString">Spiderman*No*Way*Home</value>
+  </record>
+</IDataXMLCoder>

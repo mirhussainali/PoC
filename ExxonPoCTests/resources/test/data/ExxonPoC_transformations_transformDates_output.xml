@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.util.Values">
+    <value name="inDateStr">01152022</value>
+    <value name="outDateStr">15/01/2022</value>
+  </record>
+</IDataXMLCoder>
