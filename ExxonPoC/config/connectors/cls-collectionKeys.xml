@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<services/>
+<services>
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.RestVS">
+        <servicesKeys>
+            <keyDetails collectionKey="ExxonPoC.resourceSvcs:createIncident" connectorServiceName="ExxonPoC.resourceSvcs:createIncident"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
+</services>

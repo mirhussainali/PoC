@@ -1,0 +1,3292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="svc_type">CloudService</value>
+  <value name="svc_subtype">REST</value>
+  <value name="svc_sigtype">unknown</value>
+  <record name="svc_sig" javaclass="com.wm.util.Values">
+    <record name="sig_in" javaclass="com.wm.util.Values">
+      <value name="node_type">record</value>
+      <value name="node_subtype">unknown</value>
+      <value name="is_public">false</value>
+      <value name="field_type">record</value>
+      <value name="field_dim">0</value>
+      <value name="wrapper_type">IData</value>
+      <value name="nillable">true</value>
+      <value name="form_qualified">false</value>
+      <value name="is_global">false</value>
+      <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">record</value>
+          <value name="node_subtype">unknown</value>
+          <value name="is_public">false</value>
+          <value name="field_name">createIncidentInput</value>
+          <value name="field_type">record</value>
+          <value name="field_dim">0</value>
+          <value name="wrapper_type">IData</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <array name="rec_fields" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">record</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">parameters</value>
+              <value name="field_type">record</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+              <array name="rec_fields" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">unknown</value>
+                  <value name="node_subtype">unknown</value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <null name="field_default_value"/>
+                    <Boolean name="field_fixed">true</Boolean>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">tableName</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">unknown</value>
+                  <value name="node_subtype">unknown</value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_default_value">true</value>
+                    <Boolean name="field_fixed">true</Boolean>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">sysparm_exclude_reference_link</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">unknown</value>
+                  <value name="node_subtype">unknown</value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_default_value">sys_id</value>
+                    <Boolean name="field_fixed">true</Boolean>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">sysparm_fields</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+              </array>
+              <value name="modifiable">true</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">record</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">requestHeaders</value>
+              <value name="field_type">record</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+              <array name="rec_fields" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">unknown</value>
+                  <value name="node_subtype">unknown</value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_default_value">application/json</value>
+                    <Boolean name="field_fixed">true</Boolean>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">Content-Type</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+              </array>
+              <value name="modifiable">true</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">record</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">requestBody</value>
+              <value name="field_type">record</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+              <array name="rec_fields" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">record</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment"></value>
+                  <value name="is_public">false</value>
+                  <value name="field_name">insertRequest</value>
+                  <value name="field_type">record</value>
+                  <value name="field_dim">0</value>
+                  <value name="wrapper_type">IData</value>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                  <array name="rec_fields" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Active</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">active</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Activity due</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">activity_due</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Additional assignee list</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">additional_assignee_list</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Approval</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">approval</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Approval history</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">approval_history</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Approval set</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">approval_set</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Assigned to</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">assigned_to</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Assignment group</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">assignment_group</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Business duration</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">business_duration</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Service</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">business_service</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Business resolve time</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">business_stc</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Duration</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">calendar_duration</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Resolve time</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">calendar_stc</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Caller</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">caller_id</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Category</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">category</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Caused by Change</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">caused_by</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Child Incidents</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">child_incidents</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Close code</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">close_code</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Close notes</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">close_notes</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Closed</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">closed_at</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Closed by</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">closed_by</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Configuration item</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">cmdb_ci</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Additional comments</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">comments</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Comments and Work notes</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">comments_and_work_notes</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Company</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">company</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Contact type</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">contact_type</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Contract</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">contract</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Correlation display</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">correlation_display</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Correlation ID</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">correlation_id</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Delivery plan</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">delivery_plan</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Delivery task</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">delivery_task</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Description</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">description</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Due date</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">due_date</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Escalation</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">escalation</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Expected start</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">expected_start</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Follow up</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">follow_up</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Group list</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">group_list</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">On hold reason</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">hold_reason</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Impact</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">impact</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Incident state</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">incident_state</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Knowledge</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">knowledge</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Location</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">location</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Made SLA</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">made_sla</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Notify</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">notify</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Number</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">number</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Opened</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">opened_at</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Opened by</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">opened_by</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Order</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">order</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Parent</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">parent</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Parent Incident</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">parent_incident</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Priority</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">priority</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Problem</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">problem_id</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Reassignment count</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">reassignment_count</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Rejection goto</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">rejection_goto</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Reopen count</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">reopen_count</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Last reopened by</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">reopened_by</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Last reopened at</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">reopened_time</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Resolved</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">resolved_at</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Resolved by</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">resolved_by</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Change Request</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">rfc</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Transfer reason</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">route_reason</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Service offering</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">service_offering</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Severity</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">severity</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Short description</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">short_description</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">SLA due</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">sla_due</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">State</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">state</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Subcategory</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">subcategory</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Task type</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">sys_class_name</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Created by</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">sys_created_by</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Created</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">sys_created_on</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Domain</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">sys_domain</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Domain Path</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">sys_domain_path</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Sys ID</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">sys_id</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Updates</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">sys_mod_count</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Updated by</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">sys_updated_by</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Updated</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">sys_updated_on</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Effective number</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">task_effective_number</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Time worked</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">time_worked</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Universal Request</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">universal_request</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Upon approval</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">upon_approval</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Upon reject</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">upon_reject</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Urgency</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">urgency</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">User input</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">user_input</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Variables</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">variables</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Watch list</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">watch_list</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Workflow activity</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">wf_activity</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Actual end</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">work_end</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Work notes</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">work_notes</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Work notes list</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">work_notes_list</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment">Actual start</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">work_start</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                  </array>
+                  <value name="modifiable">true</value>
+                </record>
+              </array>
+              <value name="modifiable">true</value>
+            </record>
+          </array>
+          <value name="modifiable">true</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="node_subtype">unknown</value>
+          <value name="is_public">false</value>
+          <value name="field_name">$connectionAlias</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+      </array>
+      <value name="modifiable">true</value>
+    </record>
+    <record name="sig_out" javaclass="com.wm.util.Values">
+      <value name="node_type">record</value>
+      <value name="node_subtype">unknown</value>
+      <value name="is_public">false</value>
+      <value name="field_type">record</value>
+      <value name="field_dim">0</value>
+      <value name="wrapper_type">IData</value>
+      <value name="nillable">true</value>
+      <value name="form_qualified">false</value>
+      <value name="is_global">false</value>
+      <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">record</value>
+          <value name="node_subtype">unknown</value>
+          <value name="is_public">false</value>
+          <value name="field_name">createIncidentOutput</value>
+          <value name="field_type">record</value>
+          <value name="field_dim">0</value>
+          <value name="wrapper_type">IData</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <array name="rec_fields" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">status</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">unknown</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">statusMessage</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">record</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">responseBody</value>
+              <value name="field_type">record</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+              <array name="rec_fields" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">record</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment"></value>
+                  <value name="is_public">false</value>
+                  <value name="field_name">insertResponse</value>
+                  <value name="field_type">record</value>
+                  <value name="field_dim">0</value>
+                  <value name="field_opt">true</value>
+                  <value name="wrapper_type">IData</value>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                  <array name="rec_fields" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">record</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment"></value>
+                      <record name="node_hints" javaclass="com.wm.util.Values">
+                        <value name="field_largerEditor">false</value>
+                        <value name="field_password">false</value>
+                      </record>
+                      <value name="is_public">false</value>
+                      <value name="field_name">result</value>
+                      <value name="field_type">record</value>
+                      <value name="field_dim">0</value>
+                      <value name="wrapper_type">IData</value>
+                      <value name="nillable">true</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                      <array name="rec_fields" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="node_type">unknown</value>
+                          <value name="node_subtype">unknown</value>
+                          <value name="node_comment"></value>
+                          <record name="node_hints" javaclass="com.wm.util.Values">
+                            <value name="field_usereditable">true</value>
+                            <value name="field_largerEditor">false</value>
+                            <value name="field_password">false</value>
+                          </record>
+                          <value name="is_public">false</value>
+                          <value name="field_name">sys_id</value>
+                          <value name="field_type">string</value>
+                          <value name="field_dim">0</value>
+                          <array name="field_options" type="value" depth="1">
+                          </array>
+                          <value name="nillable">true</value>
+                          <value name="form_qualified">false</value>
+                          <value name="is_global">false</value>
+                        </record>
+                      </array>
+                      <value name="modifiable">true</value>
+                    </record>
+                  </array>
+                  <value name="modifiable">true</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">record</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment">generated by webMethods</value>
+                  <value name="is_public">false</value>
+                  <value name="field_name">errorResponse</value>
+                  <value name="field_type">record</value>
+                  <value name="field_dim">0</value>
+                  <value name="field_opt">true</value>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                  <value name="originURI">file:///C:\Users\arub\Desktop\errorResponse.json</value>
+                  <array name="rec_fields" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">record</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">error</value>
+                      <value name="field_type">record</value>
+                      <value name="field_dim">0</value>
+                      <value name="nillable">true</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                      <array name="rec_fields" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="node_type">unknown</value>
+                          <value name="node_subtype">unknown</value>
+                          <value name="is_public">false</value>
+                          <value name="field_name">detail</value>
+                          <value name="field_type">string</value>
+                          <value name="field_dim">0</value>
+                          <value name="nillable">true</value>
+                          <value name="form_qualified">false</value>
+                          <value name="is_global">false</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="node_type">unknown</value>
+                          <value name="node_subtype">unknown</value>
+                          <value name="is_public">false</value>
+                          <value name="field_name">message</value>
+                          <value name="field_type">string</value>
+                          <value name="field_dim">0</value>
+                          <value name="nillable">true</value>
+                          <value name="form_qualified">false</value>
+                          <value name="is_global">false</value>
+                        </record>
+                      </array>
+                      <value name="modifiable">true</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">unknown</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="is_public">false</value>
+                      <value name="field_name">status</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="nillable">true</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                  </array>
+                  <value name="modifiable">false</value>
+                </record>
+              </array>
+              <value name="modifiable">true</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">record</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">fault</value>
+              <value name="field_type">record</value>
+              <value name="field_dim">0</value>
+              <value name="field_opt">true</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+              <array name="rec_fields" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">record</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment"></value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_largerEditor">false</value>
+                    <value name="field_password">false</value>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">code</value>
+                  <value name="field_type">record</value>
+                  <value name="field_dim">0</value>
+                  <value name="field_opt">true</value>
+                  <value name="nillable">false</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                  <array name="rec_fields" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">record</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment"></value>
+                      <record name="node_hints" javaclass="com.wm.util.Values">
+                        <value name="field_usereditable">true</value>
+                        <value name="field_largerEditor">false</value>
+                        <value name="field_password">false</value>
+                      </record>
+                      <value name="is_public">false</value>
+                      <value name="field_name">namespaceName</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">record</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment"></value>
+                      <record name="node_hints" javaclass="com.wm.util.Values">
+                        <value name="field_usereditable">true</value>
+                        <value name="field_largerEditor">false</value>
+                        <value name="field_password">false</value>
+                      </record>
+                      <value name="is_public">false</value>
+                      <value name="field_name">localName</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">record</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment"></value>
+                      <record name="node_hints" javaclass="com.wm.util.Values">
+                        <value name="field_largerEditor">false</value>
+                        <value name="field_password">false</value>
+                      </record>
+                      <value name="is_public">false</value>
+                      <value name="field_name">subCodes</value>
+                      <value name="field_type">record</value>
+                      <value name="field_dim">1</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                      <value name="is_soap_array_encoding_used">false</value>
+                      <array name="rec_fields" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="node_type">record</value>
+                          <value name="node_subtype">unknown</value>
+                          <value name="node_comment"></value>
+                          <record name="node_hints" javaclass="com.wm.util.Values">
+                            <value name="field_usereditable">true</value>
+                            <value name="field_largerEditor">false</value>
+                            <value name="field_password">false</value>
+                          </record>
+                          <value name="is_public">false</value>
+                          <value name="field_name">namespaceName</value>
+                          <value name="field_type">string</value>
+                          <value name="field_dim">0</value>
+                          <value name="field_opt">true</value>
+                          <value name="nillable">false</value>
+                          <value name="form_qualified">false</value>
+                          <value name="is_global">false</value>
+                        </record>
+                        <record javaclass="com.wm.util.Values">
+                          <value name="node_type">record</value>
+                          <value name="node_subtype">unknown</value>
+                          <value name="node_comment"></value>
+                          <record name="node_hints" javaclass="com.wm.util.Values">
+                            <value name="field_usereditable">true</value>
+                            <value name="field_largerEditor">false</value>
+                            <value name="field_password">false</value>
+                          </record>
+                          <value name="is_public">false</value>
+                          <value name="field_name">localName</value>
+                          <value name="field_type">string</value>
+                          <value name="field_dim">0</value>
+                          <value name="nillable">false</value>
+                          <value name="form_qualified">false</value>
+                          <value name="is_global">false</value>
+                        </record>
+                      </array>
+                      <value name="rec_closed">true</value>
+                      <value name="modifiable">true</value>
+                    </record>
+                  </array>
+                  <value name="rec_closed">true</value>
+                  <value name="modifiable">true</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">record</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment"></value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_largerEditor">false</value>
+                    <value name="field_password">false</value>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">reasons</value>
+                  <value name="field_type">record</value>
+                  <value name="field_dim">1</value>
+                  <value name="field_opt">true</value>
+                  <value name="nillable">false</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                  <value name="is_soap_array_encoding_used">false</value>
+                  <array name="rec_fields" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">record</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment"></value>
+                      <record name="node_hints" javaclass="com.wm.util.Values">
+                        <value name="field_usereditable">true</value>
+                        <value name="field_largerEditor">false</value>
+                        <value name="field_password">false</value>
+                      </record>
+                      <value name="is_public">false</value>
+                      <value name="field_name">@lang</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">record</value>
+                      <value name="node_subtype">unknown</value>
+                      <value name="node_comment"></value>
+                      <record name="node_hints" javaclass="com.wm.util.Values">
+                        <value name="field_usereditable">true</value>
+                        <value name="field_largerEditor">false</value>
+                        <value name="field_password">false</value>
+                      </record>
+                      <value name="is_public">false</value>
+                      <value name="field_name">*body</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="nillable">false</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
+                  </array>
+                  <value name="rec_closed">true</value>
+                  <value name="modifiable">true</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">record</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment"></value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_usereditable">true</value>
+                    <value name="field_largerEditor">false</value>
+                    <value name="field_password">false</value>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">node</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <value name="field_opt">true</value>
+                  <array name="field_options" type="value" depth="1">
+                  </array>
+                  <value name="nillable">false</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">record</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment"></value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_usereditable">true</value>
+                    <value name="field_largerEditor">false</value>
+                    <value name="field_password">false</value>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">role</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <value name="field_opt">true</value>
+                  <array name="field_options" type="value" depth="1">
+                  </array>
+                  <value name="nillable">false</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">record</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment"></value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_largerEditor">false</value>
+                    <value name="field_password">false</value>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">detail</value>
+                  <value name="field_type">record</value>
+                  <value name="field_dim">0</value>
+                  <value name="field_opt">true</value>
+                  <value name="nillable">false</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                  <array name="rec_fields" type="record" depth="1">
+                  </array>
+                  <value name="modifiable">true</value>
+                </record>
+              </array>
+              <value name="modifiable">true</value>
+            </record>
+          </array>
+          <value name="modifiable">true</value>
+        </record>
+      </array>
+      <value name="modifiable">true</value>
+    </record>
+  </record>
+  <value name="node_comment"></value>
+  <value name="stateless">yes</value>
+  <value name="caching">no</value>
+  <value name="prefetch">no</value>
+  <value name="cache_ttl">15</value>
+  <value name="prefetch_level">1</value>
+  <value name="audit_level">off</value>
+  <value name="check_internal_acls">no</value>
+  <value name="icontext_policy">$null</value>
+  <value name="system_service">no</value>
+  <value name="retry_max">0</value>
+  <value name="retry_interval">0</value>
+  <value name="svc_in_validator_options">none</value>
+  <value name="svc_out_validator_options">none</value>
+  <value name="auditoption">0</value>
+  <null name="auditfields_input"/>
+  <null name="auditfields_output"/>
+  <record name="auditsettings" javaclass="com.wm.util.Values">
+    <value name="document_data">0</value>
+    <value name="startExecution">false</value>
+    <value name="stopExecution">false</value>
+    <value name="onError">true</value>
+  </record>
+  <record name="circuitbreakersettings" javaclass="com.wm.util.Values">
+    <value name="enabled">false</value>
+    <value name="failureEvent">1</value>
+    <value name="timeoutPeriod">60</value>
+    <value name="failureThreshold">5</value>
+    <value name="failurePeriod">60</value>
+    <value name="openAction">1</value>
+    <null name="serviceToInvoke"/>
+    <value name="resetPeriod">300</value>
+    <value name="cancelThreadOnTimeout">false</value>
+  </record>
+  <array name="allowedHTTPMethods" type="value" depth="1">
+    <value>TRACE</value>
+    <value>HEAD</value>
+    <value>DELETE</value>
+    <value>POST</value>
+    <value>GET</value>
+    <value>OPTIONS</value>
+    <value>PUT</value>
+    <value>PATCH</value>
+  </array>
+  <value name="pipeline_option">1</value>
+  <null name="originURI"/>
+  <value name="modifiable">true</value>
+  <value name="is_public">false</value>
+  <value name="node_type">service</value>
+  <value name="cloudNodeVersion">1</value>
+  <record name="cloudNodeProperties" javaclass="com.wm.util.Values">
+    <value name="interactionName">insert</value>
+    <value name="serviceName">Table</value>
+    <value name="virtualServiceName">WmCloudStreams.RestVS</value>
+    <value name="connectionName">ExxonPoC.resourceSvcs:servicenowcon2</value>
+    <value name="connectionType">sagcloud</value>
+    <value name="connectorID">com.softwareag.cloudstreams.servicenow_orlando</value>
+    <record name="customData" javaclass="com.wm.util.Values">
+      <array name="customInputHeaders" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="nsName">Content-Type</value>
+          <value name="active">true</value>
+          <value name="mandatory">true</value>
+          <value name="defaultValue">application/json</value>
+          <value name="fixed">true</value>
+        </record>
+      </array>
+      <array name="customOutputHeaders" type="record" depth="1">
+      </array>
+      <array name="customParameters" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="name">tableName</value>
+          <value name="dataType">String</value>
+          <value name="type">URI_CONTEXT</value>
+          <null name="defaultValue"/>
+          <value name="description">Specifies table for which record has to be inserted</value>
+          <value name="isRequired">true</value>
+          <value name="isActive">true</value>
+          <value name="isFixed">true</value>
+          <value name="isCustom">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="name">sysparm_display_value</value>
+          <value name="dataType">String</value>
+          <value name="type">QUERYSTRING_PARAM</value>
+          <null name="defaultValue"/>
+          <value name="description">Return the display value (true), actual value (false), or both (all) for reference fields (default: false)</value>
+          <value name="isRequired">false</value>
+          <value name="isActive">false</value>
+          <value name="isFixed">false</value>
+          <value name="isCustom">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="name">sysparm_exclude_reference_link</value>
+          <value name="dataType">String</value>
+          <value name="type">QUERYSTRING_PARAM</value>
+          <value name="defaultValue">true</value>
+          <value name="description">True to exclude Table API links for reference fields</value>
+          <value name="isRequired">true</value>
+          <value name="isActive">true</value>
+          <value name="isFixed">true</value>
+          <value name="isCustom">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="name">sysparm_fields</value>
+          <value name="dataType">String</value>
+          <value name="type">QUERYSTRING_PARAM</value>
+          <value name="defaultValue">sys_id</value>
+          <value name="description">A comma-separated list of fields to return in the response</value>
+          <value name="isRequired">true</value>
+          <value name="isActive">true</value>
+          <value name="isFixed">true</value>
+          <value name="isCustom">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="name">sysparm_input_display_value</value>
+          <value name="dataType">String</value>
+          <value name="type">QUERYSTRING_PARAM</value>
+          <null name="defaultValue"/>
+          <value name="description">True to set raw value of input fields (default: false)</value>
+          <value name="isRequired">false</value>
+          <value name="isActive">false</value>
+          <value name="isFixed">false</value>
+          <value name="isCustom">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="name">sysparm_view</value>
+          <value name="dataType">String</value>
+          <value name="type">QUERYSTRING_PARAM</value>
+          <null name="defaultValue"/>
+          <value name="description">Render the response according to the specified UI view (overridden by sysparm_fields)</value>
+          <value name="isRequired">false</value>
+          <value name="isActive">false</value>
+          <value name="isFixed">false</value>
+          <value name="isCustom">false</value>
+        </record>
+      </array>
+      <array name="customInputTypeSetting" type="record" depth="1">
+      </array>
+      <array name="customOutputTypeSetting" type="record" depth="1">
+      </array>
+      <value name="interactionStyle">businessObject</value>
+      <record name="businessObject" javaclass="com.wm.util.Values">
+        <value name="boName">incident</value>
+        <value name="boDisplayName">Incident (incident)</value>
+        <value name="boPath">insertRequest</value>
+        <value name="boType">wmservicenow.orlando.doctypes.table:record</value>
+        <array name="boAttributes" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="name">sysId</value>
+            <value name="value">0a616603a9663010c0a065f439e661cf</value>
+          </record>
+        </array>
+        <array name="businessParams" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">active</value>
+            <value name="fieldLabel">Active</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">boolean</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">activity_due</value>
+            <value name="fieldLabel">Activity due</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">due_date</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">additional_assignee_list</value>
+            <value name="fieldLabel">Additional assignee list</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_list</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">approval</value>
+            <value name="fieldLabel">Approval</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">approval_history</value>
+            <value name="fieldLabel">Approval history</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">journal</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">approval_set</value>
+            <value name="fieldLabel">Approval set</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_date_time</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">assigned_to</value>
+            <value name="fieldLabel">Assigned to</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">assignment_group</value>
+            <value name="fieldLabel">Assignment group</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">business_duration</value>
+            <value name="fieldLabel">Business duration</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_duration</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">business_service</value>
+            <value name="fieldLabel">Service</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">business_stc</value>
+            <value name="fieldLabel">Business resolve time</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">calendar_duration</value>
+            <value name="fieldLabel">Duration</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_duration</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">calendar_stc</value>
+            <value name="fieldLabel">Resolve time</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">caller_id</value>
+            <value name="fieldLabel">Caller</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">category</value>
+            <value name="fieldLabel">Category</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">caused_by</value>
+            <value name="fieldLabel">Caused by Change</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">child_incidents</value>
+            <value name="fieldLabel">Child Incidents</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">close_code</value>
+            <value name="fieldLabel">Close code</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">close_notes</value>
+            <value name="fieldLabel">Close notes</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">closed_at</value>
+            <value name="fieldLabel">Closed</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_date_time</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">closed_by</value>
+            <value name="fieldLabel">Closed by</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">cmdb_ci</value>
+            <value name="fieldLabel">Configuration item</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">comments</value>
+            <value name="fieldLabel">Additional comments</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">journal_input</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">comments_and_work_notes</value>
+            <value name="fieldLabel">Comments and Work notes</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">journal_list</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">company</value>
+            <value name="fieldLabel">Company</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">contact_type</value>
+            <value name="fieldLabel">Contact type</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">contract</value>
+            <value name="fieldLabel">Contract</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">correlation_display</value>
+            <value name="fieldLabel">Correlation display</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">correlation_id</value>
+            <value name="fieldLabel">Correlation ID</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">delivery_plan</value>
+            <value name="fieldLabel">Delivery plan</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">delivery_task</value>
+            <value name="fieldLabel">Delivery task</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">description</value>
+            <value name="fieldLabel">Description</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">due_date</value>
+            <value name="fieldLabel">Due date</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_date_time</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">escalation</value>
+            <value name="fieldLabel">Escalation</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">expected_start</value>
+            <value name="fieldLabel">Expected start</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_date_time</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">follow_up</value>
+            <value name="fieldLabel">Follow up</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_date_time</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">group_list</value>
+            <value name="fieldLabel">Group list</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_list</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">hold_reason</value>
+            <value name="fieldLabel">On hold reason</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">impact</value>
+            <value name="fieldLabel">Impact</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">incident_state</value>
+            <value name="fieldLabel">Incident state</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">knowledge</value>
+            <value name="fieldLabel">Knowledge</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">boolean</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">location</value>
+            <value name="fieldLabel">Location</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">made_sla</value>
+            <value name="fieldLabel">Made SLA</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">boolean</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">notify</value>
+            <value name="fieldLabel">Notify</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">number</value>
+            <value name="fieldLabel">Number</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">opened_at</value>
+            <value name="fieldLabel">Opened</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_date_time</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">opened_by</value>
+            <value name="fieldLabel">Opened by</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">order</value>
+            <value name="fieldLabel">Order</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">parent</value>
+            <value name="fieldLabel">Parent</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">parent_incident</value>
+            <value name="fieldLabel">Parent Incident</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">priority</value>
+            <value name="fieldLabel">Priority</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">problem_id</value>
+            <value name="fieldLabel">Problem</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">reassignment_count</value>
+            <value name="fieldLabel">Reassignment count</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">rejection_goto</value>
+            <value name="fieldLabel">Rejection goto</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">reopen_count</value>
+            <value name="fieldLabel">Reopen count</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">reopened_by</value>
+            <value name="fieldLabel">Last reopened by</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">reopened_time</value>
+            <value name="fieldLabel">Last reopened at</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_date_time</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">resolved_at</value>
+            <value name="fieldLabel">Resolved</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_date_time</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">resolved_by</value>
+            <value name="fieldLabel">Resolved by</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">rfc</value>
+            <value name="fieldLabel">Change Request</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">route_reason</value>
+            <value name="fieldLabel">Transfer reason</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">service_offering</value>
+            <value name="fieldLabel">Service offering</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">severity</value>
+            <value name="fieldLabel">Severity</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">short_description</value>
+            <value name="fieldLabel">Short description</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">sla_due</value>
+            <value name="fieldLabel">SLA due</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">due_date</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">state</value>
+            <value name="fieldLabel">State</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">subcategory</value>
+            <value name="fieldLabel">Subcategory</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">sys_class_name</value>
+            <value name="fieldLabel">Task type</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">sys_class_name</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">sys_created_by</value>
+            <value name="fieldLabel">Created by</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">sys_created_on</value>
+            <value name="fieldLabel">Created</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_date_time</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">sys_domain</value>
+            <value name="fieldLabel">Domain</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">domain_id</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">sys_domain_path</value>
+            <value name="fieldLabel">Domain Path</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">domain_path</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">sys_id</value>
+            <value name="fieldLabel">Sys ID</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">GUID</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">sys_mod_count</value>
+            <value name="fieldLabel">Updates</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">sys_updated_by</value>
+            <value name="fieldLabel">Updated by</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">sys_updated_on</value>
+            <value name="fieldLabel">Updated</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_date_time</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">task_effective_number</value>
+            <value name="fieldLabel">Effective number</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">time_worked</value>
+            <value name="fieldLabel">Time worked</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">timer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">universal_request</value>
+            <value name="fieldLabel">Universal Request</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">upon_approval</value>
+            <value name="fieldLabel">Upon approval</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">upon_reject</value>
+            <value name="fieldLabel">Upon reject</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">string</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">urgency</value>
+            <value name="fieldLabel">Urgency</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">integer</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">user_input</value>
+            <value name="fieldLabel">User input</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">user_input</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">variables</value>
+            <value name="fieldLabel">Variables</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">variables</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">watch_list</value>
+            <value name="fieldLabel">Watch list</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_list</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">wf_activity</value>
+            <value name="fieldLabel">Workflow activity</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">reference</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">work_end</value>
+            <value name="fieldLabel">Actual end</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_date_time</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">work_notes</value>
+            <value name="fieldLabel">Work notes</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">journal_input</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">work_notes_list</value>
+            <value name="fieldLabel">Work notes list</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_list</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">work_start</value>
+            <value name="fieldLabel">Actual start</value>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">glide_date_time</value>
+            <null name="soapType"/>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">false</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
+          </record>
+        </array>
+        <null name="customBusinessParams"/>
+      </record>
+      <record name="requestProcessing" javaclass="com.wm.util.Values">
+        <value name="messageFormatterType">application/json</value>
+        <value name="builderType">application/octet+idataoref</value>
+      </record>
+      <record name="responseProcessing" javaclass="com.wm.util.Values">
+        <value name="messageFormatterType">application/json</value>
+        <value name="builderType">application/json</value>
+      </record>
+      <value name="method">POST</value>
+      <value name="path">/api/now/table/{tableName}</value>
+      <value name="restSignatureStyle">WITH_DOCUMENT_ROOT</value>
+      <record name="partsContainer" javaclass="com.wm.util.Values">
+        <array name="parts" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+  </record>
+</Values>

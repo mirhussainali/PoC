@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">CloudConnectionNode</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">ExxonPoC.resourceSvcs:servicenowcon2</value>
+  <value name="node_pkg">ExxonPoC</value>
+  <value name="is_public">false</value>
+  <value name="cloudNodeVersion">1</value>
+  <record name="cloudNodeProperties" javaclass="com.wm.util.Values">
+    <number name="connectionNodeVersion" type="Integer">1</number>
+    <value name="connectorID">com.softwareag.cloudstreams.servicenow_orlando</value>
+    <value name="providerName">WmServiceNowProvider</value>
+    <value name="providerConnectionType">sagcloud</value>
+    <record name="connectionGroupProperties" javaclass="com.wm.util.Values">
+      <value name="cn.providerUrl">https://dev108365.service-now.com</value>
+      <value name="cn.connectTimeout">30000</value>
+      <value name="cn.readTimeout">30000</value>
+      <value name="cn.socketStaleCheck">false</value>
+      <value name="cn.validateAfterInactivity">1000</value>
+      <value name="cn.retryCount">4</value>
+      <value name="cn.retryIfRequestSentOk">true</value>
+      <value name="cn.tcpNoDelay">false</value>
+      <value name="cn.socketLinger">-1</value>
+      <value name="cn.sockBuffSize">8192</value>
+      <value name="cn.reuseAddr">false</value>
+      <value name="cn.webproxyAlias"></value>
+      <value name="cn.truststoreAlias"></value>
+      <value name="cn.keystoreAlias"></value>
+      <value name="cn.clientKeyAlias"></value>
+      <value name="cn.hostnameVerifier">org.apache.http.conn.ssl.DefaultHostnameVerifier</value>
+      <value name="cn.keepAliveInterval">-1</value>
+      <value name="cn.idleTimeout">-1</value>
+      <value name="cn.enableCompression">false</value>
+      <value name="cn.enableSNI">false</value>
+      <value name="cn.sniServerName"></value>
+      <value name="cr.username">admin</value>
+      <value name="cr.password">ExxonPoC.resourceSvcs:servicenowcon2.cr.password</value>
+      <value name="cr.authSchemeType">basic</value>
+      <value name="cr.preemptiveAuthEnabled">true</value>
+      <value name="cr.securityRealm"></value>
+    </record>
+    <array name="passmanHandles" type="value" depth="1">
+      <value>ExxonPoC.resourceSvcs:servicenowcon2.cr.password</value>
+    </array>
+    <record name="connectionManagerProperties" javaclass="com.wm.util.Values">
+      <value name="poolable">false</value>
+      <value name="timeoutType">none</value>
+    </record>
+    <value name="connectionEnabled">true</value>
+  </record>
+</Values>
