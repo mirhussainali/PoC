@@ -54,7 +54,7 @@
       <value name="modifiable">true</value>
     </record>
   </record>
-  <value name="node_comment"></value>
+  <value name="node_comment">Updated the service to call the correct resource service</value>
   <value name="stateless">yes</value>
   <value name="caching">yes</value>
   <value name="prefetch">no</value>
