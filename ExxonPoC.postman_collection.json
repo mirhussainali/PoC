@@ -1,0 +1,447 @@
+{
+	"info": {
+		"_postman_id": "1b13ce2e-f702-40da-bbad-7130ef34c4ec",
+		"name": "ExxonPoC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "addPO",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "SoftwareAG@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Administrator",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\"?>\r\n<PurchaseOrder PurchaseOrderNumber=\"EXXON_ORDER_106\" OrderDate=\"01/11/2022\">\r\n    <Customer>\r\n        <CompanyName>Exxon_Customer1 (Retail)</CompanyName>\r\n    </Customer>\r\n    <Supplier>\r\n        <CompanyName>Exxon (Corporate)</CompanyName>\r\n    </Supplier>\r\n    <Items>\r\n        <Item PartNumber=\"7237823\">\r\n            <ProductName>7219D</ProductName>\r\n            <Quantity>5</Quantity>\r\n            <USPrice>5.5</USPrice>\r\n            <Comment>BRD951028817</Comment>\r\n            <ShipDate></ShipDate>\r\n        </Item>\r\n        <Item PartNumber=\"7237824\">\r\n            <Quantity>17</Quantity>\r\n            <USPrice>2.01</USPrice>\r\n            <ProductName>7229D</ProductName>\r\n            <Comment>BRD952028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237825\">\r\n            <Quantity>3</Quantity>\r\n            <USPrice>3.01</USPrice>\r\n            <ProductName>7239D</ProductName>\r\n            <Comment>BRD953028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237826\">\r\n            <Quantity>4</Quantity>\r\n            <USPrice>12.51</USPrice>\r\n            <ProductName>7249D</ProductName>\r\n            <Comment>BRD954028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237827\">\r\n            <Quantity>33</Quantity>\r\n            <USPrice>2.11</USPrice>\r\n            <ProductName>7259D</ProductName>\r\n            <Comment>BRD955028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237833\">\r\n            <Quantity>11</Quantity>\r\n            <USPrice>7.01</USPrice>\r\n            <ProductName>7269D</ProductName>\r\n            <Comment>BRD956028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237834\">\r\n            <Quantity>21</Quantity>\r\n            <USPrice>8.54</USPrice>\r\n            <ProductName>7279D</ProductName>\r\n            <Comment>BRD957028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237835\">\r\n            <Quantity>44</Quantity>\r\n            <USPrice>5.71</USPrice>\r\n            <ProductName>7289D</ProductName>\r\n            <Comment>BRD958028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237836\">\r\n            <Quantity>15</Quantity>\r\n            <USPrice>12.21</USPrice>\r\n            <ProductName>7299D</ProductName>\r\n            <Comment>BRD959028817</Comment>\r\n        </Item>\r\n    </Items>\r\n</PurchaseOrder>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5301/rad/ExxonPoC.api_swaggerimport:exxonPO/addPO",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5301",
+					"path": [
+						"rad",
+						"ExxonPoC.api_swaggerimport:exxonPO",
+						"addPO"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getPOList",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "SoftwareAG@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Administrator",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5301/rad/ExxonPoC.api_swaggerimport:exxonPO/getPOReport",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5301",
+					"path": [
+						"rad",
+						"ExxonPoC.api_swaggerimport:exxonPO",
+						"getPOReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PurchaseOrderAPI_Add",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "SoftwareAG@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Administrator",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\"?>\r\n<PurchaseOrder PurchaseOrderNumber=\"EXXON_ORDER_201\" OrderDate=\"01/17/2022\">\r\n    <Customer>\r\n        <CompanyName>Exxon_Customer1 (Retail)</CompanyName>\r\n    </Customer>\r\n    <Supplier>\r\n        <CompanyName>Exxon (Corporate)</CompanyName>\r\n    </Supplier>\r\n    <Items>\r\n        <Item PartNumber=\"7237823\">\r\n            <ProductName>7219D</ProductName>\r\n            <Quantity>5</Quantity>\r\n            <USPrice>5.5</USPrice>\r\n            <Comment>BRD951028817</Comment>\r\n            <ShipDate></ShipDate>\r\n        </Item>\r\n        <Item PartNumber=\"7237824\">\r\n            <Quantity>17</Quantity>\r\n            <USPrice>2.01</USPrice>\r\n            <ProductName>7229D</ProductName>\r\n            <Comment>BRD952028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237825\">\r\n            <Quantity>3</Quantity>\r\n            <USPrice>3.01</USPrice>\r\n            <ProductName>7239D</ProductName>\r\n            <Comment>BRD953028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237826\">\r\n            <Quantity>4</Quantity>\r\n            <USPrice>12.51</USPrice>\r\n            <ProductName>7249D</ProductName>\r\n            <Comment>BRD954028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237827\">\r\n            <Quantity>33</Quantity>\r\n            <USPrice>2.11</USPrice>\r\n            <ProductName>7259D</ProductName>\r\n            <Comment>BRD955028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237833\">\r\n            <Quantity>11</Quantity>\r\n            <USPrice>7.01</USPrice>\r\n            <ProductName>7269D</ProductName>\r\n            <Comment>BRD956028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237834\">\r\n            <Quantity>21</Quantity>\r\n            <USPrice>8.54</USPrice>\r\n            <ProductName>7279D</ProductName>\r\n            <Comment>BRD957028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237835\">\r\n            <Quantity>44</Quantity>\r\n            <USPrice>5.71</USPrice>\r\n            <ProductName>7289D</ProductName>\r\n            <Comment>BRD958028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237836\">\r\n            <Quantity>15</Quantity>\r\n            <USPrice>12.21</USPrice>\r\n            <ProductName>7299D</ProductName>\r\n            <Comment>BRD959028817</Comment>\r\n        </Item>\r\n    </Items>\r\n</PurchaseOrder>"
+				},
+				"url": {
+					"raw": "http://localhost:5301/rad/ExxonPoCUtils.API:PurchaseOrderAPI/PurchaseOrder",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5301",
+					"path": [
+						"rad",
+						"ExxonPoCUtils.API:PurchaseOrderAPI",
+						"PurchaseOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PurchaseOrderAPI_Update",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "SoftwareAG@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Administrator",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/xml"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\"?>\r\n<PurchaseOrder PurchaseOrderNumber=\"EXXON_ORDER_201\" OrderDate=\"01/17/2022\">\r\n    <Customer>\r\n        <CompanyName>Exxon_Customer1 (Retail)</CompanyName>\r\n    </Customer>\r\n    <Supplier>\r\n        <CompanyName>Exxon (Corporate)</CompanyName>\r\n    </Supplier>\r\n    <Items>\r\n        <Item PartNumber=\"7237823\">\r\n            <ProductName>7219D</ProductName>\r\n            <Quantity>5</Quantity>\r\n            <USPrice>6.5</USPrice>\r\n            <Comment>BRD951028817</Comment>\r\n            <ShipDate></ShipDate>\r\n        </Item>\r\n        <Item PartNumber=\"7237824\">\r\n            <Quantity>17</Quantity>\r\n            <USPrice>2.01</USPrice>\r\n            <ProductName>7229D</ProductName>\r\n            <Comment>BRD952028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237825\">\r\n            <Quantity>3</Quantity>\r\n            <USPrice>3.01</USPrice>\r\n            <ProductName>7239D</ProductName>\r\n            <Comment>BRD953028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237826\">\r\n            <Quantity>4</Quantity>\r\n            <USPrice>12.51</USPrice>\r\n            <ProductName>7249D</ProductName>\r\n            <Comment>BRD954028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237827\">\r\n            <Quantity>33</Quantity>\r\n            <USPrice>2.11</USPrice>\r\n            <ProductName>7259D</ProductName>\r\n            <Comment>BRD955028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237833\">\r\n            <Quantity>11</Quantity>\r\n            <USPrice>7.01</USPrice>\r\n            <ProductName>7269D</ProductName>\r\n            <Comment>BRD956028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237834\">\r\n            <Quantity>21</Quantity>\r\n            <USPrice>8.54</USPrice>\r\n            <ProductName>7279D</ProductName>\r\n            <Comment>BRD957028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237835\">\r\n            <Quantity>44</Quantity>\r\n            <USPrice>5.71</USPrice>\r\n            <ProductName>7289D</ProductName>\r\n            <Comment>BRD958028817</Comment>\r\n        </Item>\r\n        <Item PartNumber=\"7237836\">\r\n            <Quantity>15</Quantity>\r\n            <USPrice>12.21</USPrice>\r\n            <ProductName>7299D</ProductName>\r\n            <Comment>BRD959028817</Comment>\r\n        </Item>\r\n    </Items>\r\n</PurchaseOrder>"
+				},
+				"url": {
+					"raw": "http://localhost:5301/rad/ExxonPoCUtils.API:PurchaseOrderAPI/PurchaseOrder/EXXON_ORDER_201",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5301",
+					"path": [
+						"rad",
+						"ExxonPoCUtils.API:PurchaseOrderAPI",
+						"PurchaseOrder",
+						"EXXON_ORDER_201"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PurchaseOrderAPI_View",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "SoftwareAG@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Administrator",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5301/rad/ExxonPoCUtils.API:PurchaseOrderAPI/PurchaseOrder/EXXON_ORDER_201",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5301",
+					"path": [
+						"rad",
+						"ExxonPoCUtils.API:PurchaseOrderAPI",
+						"PurchaseOrder",
+						"EXXON_ORDER_201"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PurchaseOrderAPI_ViewAsJSON",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "SoftwareAG@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Administrator",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5301/rad/ExxonPoCUtils.API:PurchaseOrderAPI/PurchaseOrder/JSON/EXXON_ORDER_201",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5301",
+					"path": [
+						"rad",
+						"ExxonPoCUtils.API:PurchaseOrderAPI",
+						"PurchaseOrder",
+						"JSON",
+						"EXXON_ORDER_201"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PurchaseOrderAPI_Delete",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "SoftwareAG@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Administrator",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5301/rad/ExxonPoCUtils.API:PurchaseOrderAPI/PurchaseOrder/EXXON_ORDER_201",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5301",
+					"path": [
+						"rad",
+						"ExxonPoCUtils.API:PurchaseOrderAPI",
+						"PurchaseOrder",
+						"EXXON_ORDER_201"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PurchaseOrderAPI_ViewAll",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "SoftwareAG@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Administrator",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5301/rad/ExxonPoCUtils.API:PurchaseOrderAPI/PurchaseOrder",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5301",
+					"path": [
+						"rad",
+						"ExxonPoCUtils.API:PurchaseOrderAPI",
+						"PurchaseOrder"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
